@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+#header {
+    margin-top: 20px;
+    border-bottom: 4px solid black;
+    height: 70px;
+    width: 960px;
+}
+#title_head {
+    display: flex;
+    align-items: center;
+}
+#title_head img h2 h4{
+    flex: 1;
+}
+#title_head img {
+    margin: 10px;
+}
+#title_head h2 {
+    margin: 5px;
+}
+#title_head h4 {
+    margin: 5px;
+}
+#title_head input {
+    flex: 2;
+    height: 30px;
+    border-radius: 10px;
+}
+#search {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    right: 40px;
+}
+.leaf {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(48, 192, 178);
+}
+.cart {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#title_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#discover {
+    height: 310px;
+    width: 310px;
+    background-color: rgb(48, 192, 178);
+    color: white;
+    text-align: center;
+}
+#discover h2 {
+    padding: 40px;
+}
+#col-l {
+    display: flex;
+    align-items: center;
+}
+#col-l img {
+    height: 310px;
+    width: 310px;
+}
+#soothing_aloe {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(48, 192, 178);
+    color: white;
+    text-align: center;
+}
+#soothing_aloe h2 {
+    padding: 30px;
+    margin-right: 50px;
+}
+#col-r {
+    margin-left: 10px;
+}
+#col-r img {
+    height: 196px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+#bottom {
+    width: 960px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(85, 228, 213);
+    border-top: 20px;
+}
+#aloe_images {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#bottom img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.plant_names {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plant_names h2 {
+    font-size: large;
+}
+#cookie {
+    background-color: rgb(236, 233, 233);
+    height: 100px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
+#cookie img {
+    height: 50px;
+    width: 50px;
+}
+#btn {
+    background-color: rgb(48, 192, 178);
+    box-shadow: 2px 2px 2px black;
+    width: 90px;
+    height: 40px;
+}
